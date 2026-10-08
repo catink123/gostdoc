@@ -16,7 +16,7 @@ hand the file over.
 
 ```bash
 # one-time setup
-pip install git+https://github.com/catink123/gost-doc-gen
+pip install git+https://github.com/catink123/gostdoc
 gostdoc --guide                                 # prints this guide
 
 # convert

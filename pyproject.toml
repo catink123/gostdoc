@@ -32,7 +32,7 @@ dependencies = [
 dev = ["pytest", "pymupdf"]
 
 [project.urls]
-Repository = "https://github.com/catink123/gost-doc-gen"
+Repository = "https://github.com/catink123/gostdoc"
 
 [project.scripts]
 gostdoc = "gostdoc.cli:main"

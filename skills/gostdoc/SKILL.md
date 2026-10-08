@@ -6,7 +6,7 @@ description: Write Russian/Belarusian technical documents (пояснитель�
 # gostdoc
 
 1. Make sure the tool is installed: `gostdoc --version`. If it is missing, install it with
-   `pip install git+https://github.com/catink123/gost-doc-gen`.
+   `pip install git+https://github.com/catink123/gostdoc`.
 2. Run `gostdoc --guide` and read the whole output before writing anything. It is the
    complete syntax and the rules (numbering, captions, formulas, «где» blocks, sources).
 3. Write the document as UTF-8 Markdown, following the guide. Never number headings,

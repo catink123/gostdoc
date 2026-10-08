@@ -39,14 +39,14 @@ that an agent can read (`gostdoc --guide`), and the repository includes `AGENTS.
 Python 3.10 or newer is required.
 
 ```bash
-pip install git+https://github.com/catink123/gost-doc-gen
+pip install git+https://github.com/catink123/gostdoc
 ```
 
 For development:
 
 ```bash
-git clone https://github.com/catink123/gost-doc-gen
-cd gost-doc-gen
+git clone https://github.com/catink123/gostdoc
+cd gostdoc
 python -m venv .venv
 .venv/Scripts/python -m pip install -e ".[dev]"     # Linux/macOS: .venv/bin/python
 ```
