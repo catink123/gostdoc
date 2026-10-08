@@ -1,0 +1,16 @@
+# gostdoc
+
+> Command-line tool and Python library that converts Markdown into Word (.docx) documents formatted to Russian GOST standards: ЕСКД пояснительная записка (ГОСТ 2.105/2.104, with frame and title block) or a ГОСТ 7.32 research report. It does numbering, captions, cross-references, formulas (LaTeX → Office Math), the table of contents and the list of sources.
+
+Install: `pip install git+https://github.com/catink123/gost-doc-gen`. Run `gostdoc --guide` to print the authoring guide.
+
+## Docs
+
+- [Authoring guide for AI agents](gostdoc/AI_INSTRUCTIONS.md): complete Markdown syntax, GOST rules, settings and a pre-delivery checklist
+- [README](README.md): overview, installation, command line
+- [Example document](examples/example.md): uses every feature
+
+## Optional
+
+- [AGENTS.md](AGENTS.md): how to work on the gostdoc code itself
+- [Claude Code skill](skills/gostdoc/SKILL.md)
